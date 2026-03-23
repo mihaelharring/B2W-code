@@ -67,7 +67,7 @@ def parse_questions_file(path):
     with open(path, "r", encoding="utf-8") as f:
         text = f.read()
 
-    # Try to parse JSON input first (json.loads as requested).
+     
     try:
         data = json.loads(text)
     except json.JSONDecodeError:
@@ -144,7 +144,7 @@ def get_random_question(questions):
 
 
 def get_age_quiz(questions, age):
-    # Under 16: easier, 10 questions; 16 and older: 20 questions.
+    
     if age <= 15:
         n = 10
     else:
@@ -153,7 +153,7 @@ def get_age_quiz(questions, age):
     if len(questions) <= n:
         return questions.copy()
 
-    # If JSON contains difficulty, prefer easy for younger players.
+    
     easy = [q for q in questions if q.get("difficulty", "").lower() in ("easy", "medium")]
     if age <= 15 and len(easy) >= n:
         return random.sample(easy, n)
@@ -231,7 +231,7 @@ def run_quiz_gui(questions):
         else:
             status_var.set(f"Wrong; correct is {correct}. Score {score}/{len(questions)}")
 
-        # Find next unanswered question
+        
         next_idx = None
         for i, ans in enumerate(selected_answers):
             if ans is None:
