@@ -18,7 +18,7 @@ BTN_BG = "#003300"
 BTN_HOVER = "#005500"
 FONT_MAIN = ("Consolas", 16)
 FONT_TITLE = ("Consolas", 26, "bold")
-CRT_IMAGE_PATH = "crt_background.png"  # Make sure this matches your filename
+CRT_IMAGE_PATH = "crt_background.png"  
 
 class RetroQuizApp:
     def __init__(self, root):
