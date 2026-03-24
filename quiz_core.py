@@ -4,6 +4,7 @@ import random
 
 BASE_DIR = os.path.dirname(__file__)
 INPUT_FILE = os.path.join(BASE_DIR, "index.json")
+OUTPUT_FILE = os.path.join(os.path.dirname(__file__), "questions_answers.json")
 LEADERBOARD_FILE = os.path.join(BASE_DIR, "leaderboard.json")
 
 

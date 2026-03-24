@@ -1,5 +1,54 @@
 {
   "questions": [
-
+    {
+      "question": "Which command installs Python packages?",
+      "options": {},
+      "answer": "a"
+    },
+    {
+      "question": "Which keyword creates a class in Python?",
+      "options": {},
+      "answer": "b"
+    },
+    {
+      "question": "Which language is used for iOS apps?",
+      "options": {},
+      "answer": "a"
+    },
+    {
+      "question": "Which port does FTP use?",
+      "options": {},
+      "answer": "a"
+    },
+    {
+      "question": "Which is a NoSquestionL database?",
+      "options": {},
+      "answer": "c"
+    },
+    {
+      "question": "Which command installs packages on Ubuntu?",
+      "options": {},
+      "answer": "b"
+    },
+    {
+      "question": "Which Python type is immutable?",
+      "options": {},
+      "answer": "c"
+    },
+    {
+      "question": "Which keyword creates an object in JavaScript?",
+      "options": {},
+      "answer": "a"
+    },
+    {
+      "question": "Which language is interpreted?",
+      "options": {},
+      "answer": "c"
+    },
+    {
+      "question": "Which language is used for Unity games?",
+      "options": {},
+      "answer": "b"
+    }
   ]
 }
